@@ -32,10 +32,10 @@ function Accordin() {
             //     backgroundPosition: 'center',
             // }}
             className=" lg:h-screen h-[130vh] xl:h-auto lg:pt-10  flex-col gap-4 text-[white] flex items-center justify-center"
-        ><p className="h text-[#03C649]">faqs</p>
+        ><p className="h text-[#03C649] atomicage">faqs</p>
             <div className="flex flex-col gap-4 max-w-[1400px] mx-auto xl:h-auto xl:py-20">
                 {accordionData.map((item, index) => (
-                    <div key={index} className="bg-[#03C649] h-auto rounded-lg w-[300px] lg:w-[800px]">
+                    <div key={index} className="bg-[#03C649] transition-all ease-linear duration-200 hover:scale-105 h-auto rounded-lg w-[300px] lg:w-[800px]">
                         <p
                             onClick={() => toggleAccordion(index)}
                             className={`text-[#ECDD91] ${openIndex === index ? 'border-black/20 border-b-2' : 'border-0'} font-semibold text-[12px] lg:text-[20px] mx-5 text-start p-3 relative cursor-pointer`}
@@ -56,12 +56,12 @@ function Accordin() {
 
                 ))}
             </div>
-            <p className="h  text-white lg:text-[#69AF00]">Questions?</p>
-            <p className=" p text-center text-white lg:text-[#69AF00]">Whether you're curious about features,  a free trial, or even press releases, we're here to answer all your questions.</p>
+            <p className="h  text-white lg:text-[#69AF00] atomicage">Questions?</p>
+            <p className=" p text-center text-white lg:text-[#69AF00] exo">Whether you're curious about features,  a free trial, or even press releases, we're here to answer all your questions.</p>
 
 
             <div className="flex pb-10 px-3">
-                <input type="email" placeholder='Enter your Email' className=" px-5 h-[35px] w-[200px]  lg:w-[400px]  border-[#69AF00] border bg-[#c3c4c62d]" />
+                <input type="email" placeholder='Enter your Email' className=" px-5 h-[35px] w-[200px]  lg:w-[400px]  border-[#69AF00] border bg-[#c3c4c696]" />
                 <button className="h-[35px] px-5 rounded-r-lg border-l-0  bg-[#69AF00] border-[#69AF00] border">subscribe</button>
             </div>
             <div className="flex items-center mb-4 justify-center gap-5">

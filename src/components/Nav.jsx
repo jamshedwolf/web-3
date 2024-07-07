@@ -10,7 +10,7 @@ import { Link } from 'react-router-dom';
 
 function Nav() {
     const [isOpen, setIsOpen] = useState(false);
-    const [activeIndex, setActiveIndex] = useState(null);
+    const [activeIndex, setActiveIndex] = useState(0); // Start with Home link active
 
     const navItems = [
         { name: 'Home', path: '/' },
@@ -30,12 +30,11 @@ function Nav() {
     };
 
     return (
-        <div className="py-4 bg-transparent z-50 fixed top-0 left-0 w-full">
+        <div className="py-4 atomicage bg-transparent z-50 fixed top-0  left-0 w-full">
             {/* Mobile screen */}
-            <div className="flex items-center z-50
-             justify-between p-4 lg:hidden">
+            <div className="flex items-center z-50 justify-between p-4 lg:hidden">
                 <img src={logo} alt="Logo" className="w-[60px] h-auto" />
-                <button onClick={toggleMenu} className="text-[#ECDD91]">
+                <button onClick={toggleMenu} className=" pr-5 text-[#ECDD91]">
                     {isOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
                 </button>
             </div>
@@ -66,7 +65,7 @@ function Nav() {
                                 <img src={world} alt="Website" className="w-10 h-10" />
                             </a>
                         </div>
-                        <p className="border flex items-center text-[#ECDD91] border-[#ECDD91] justify-center  rounded-lg py-2 gap-2 w-40 h-12 text-center">
+                        <p className="border flex items-center text-[#ECDD91] border-[#ECDD91] justify-center rounded-lg py-2 gap-2 w-40 h-12 text-center">
                             <MdOutlineAccountBalanceWallet size={25} className='text-[#ECDD91]' /> Connect Wallet
                         </p>
                     </div>
@@ -74,7 +73,7 @@ function Nav() {
             )}
 
             {/* Laptop screen */}
-            <div className="hidden lg:flex items-center gap-5 justify-between px-4 py-2 max-w-[1400px] mx-auto">
+            <div className="hidden lg:flex items-center  gap-5 justify-between px-4 py-2 max-w-[1400px] mx-auto">
                 <div className="flex-[0.5] flex justify-center items-center gap-3">
                     {navItems.map((item, index) => (
                         <Link
@@ -91,8 +90,8 @@ function Nav() {
                     <img src={logo} alt="Logo" className="w-24 h-auto" />
                 </div>
                 <div className="flex-[0.5] flex justify-center items-center gap-4">
-                    <p className="border flex items-center text-[#ECDD91] text-[15px] border-[#ECDD91] justify-center rounded-lg gap-1 w-40 h-[40px] text-center">
-                        <MdOutlineAccountBalanceWallet size={25} className='text-[#ECDD91]' /> Connect Wallet
+                    <p className="border flex items-center text-[#ECDD91] text-[13px] border-[#ECDD91] justify-center rounded-lg gap-1 w-40 h-[40px] text-center">
+                        <MdOutlineAccountBalanceWallet size={25} className='text-[#ECDD91] ' /> Connect Wallet
                     </p>
                     <div className="flex space-x-3">
                         <a href="https://discord.com">

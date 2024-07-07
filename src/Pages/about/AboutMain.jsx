@@ -2,6 +2,10 @@ import React from 'react'
 import First from './First'
 import bgabout from "../../assets/images/bgabout.svg"
 import Second from './Second'
+import Third from './Third'
+import Fourth from './Fourth'
+import Last from './Last'
+import Timeline from './Timeline'
 
 function AboutMain() {
   return (
@@ -14,11 +18,16 @@ function AboutMain() {
 
     }}
     
-    className=' bg-fixed pt-[100px]    lg:pt-16'>
+    className=' bg-fixed pt-[100px]  overflow-x-hidden   lg:pt-16'>
 
 
 <First/>
+
+<Timeline/>
 <Second/>
+<Third/>
+<Fourth/>
+<Last/>
 
         
 

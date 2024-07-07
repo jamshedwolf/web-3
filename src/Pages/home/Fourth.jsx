@@ -7,7 +7,7 @@ import chain from "../../assets/images/chainmid.svg"
 
 function Fourth() {
   return (
-    <div className='flex flex-col py-20 justify-center gap-5 items-center h-auto  lg:h-[70vh]  xl:py-20 bg-white'>
+    <div className='flex flex-col py-20 justify-center gap-5 items-center h-auto  lg:h-[70vh]  xl:py-20 '>
 <div className="text-center flex-col lg:flex-row gap-6 max-w-[1400px] mx-auto  px-5 lg:text-3xl flex justify-center items-center">
  <img src={leftb} alt="" className="transition-all ease-linear duration-200 hover:scale-105" />
  <img src={chain} alt="" className="transition-all ease-linear duration-200 hover:scale-105" />
@@ -15,10 +15,12 @@ function Fourth() {
 
 
 </div>
-<div className=" hidden lg:block pt-10 overflow-x-hidden w-full">
-<img src={slider} alt="" className="" />
+{/* <div className=" hidden lg:block pt-20 overflow-x-hidden w-full"> */}
 
-</div>
+
+<img src={slider} alt="" className=" pt-[100px] hidden lg:block" />
+
+{/* </div> */}
 
     </div>
   )
