@@ -12,7 +12,7 @@ import crd2 from "../../assets/images/crd2.svg";
 import crd3 from "../../assets/images/crd3.svg";
 import crd4 from "../../assets/images/crd4.svg";
 import "../home/card.css";
-
+import { Link } from 'react-router-dom';
 
 
 
@@ -43,16 +43,8 @@ function Club2() {
           labelTopLeft: 'CoNetworking',
           labelTopRight: 'LIVE',
         },
-        {
-          imgSrc: copy,
-          labelTopLeft: 'A Crypto token',
-          labelTopRight: 'LIVE',
-        },
-        {
-          imgSrc: copy,
-          labelTopLeft: 'A Crypto token',
-          labelTopRight: 'LIVE',
-        },
+       
+        
       ];
       
      
@@ -97,14 +89,14 @@ function Club2() {
 
 
 
-    <div className="flex flex-col w-[100%]  xl:h-auto xl:p-40  overflow-x-hidden justify-center items-center gap-5 mx-auto lg:h-[80vh]">
+    <div className="flex flex-col w-[100%] exo xl:h-auto xl:p-40  overflow-x-hidden justify-center items-center gap-5 mx-auto lg:h-[80vh]">
       <p className="atomicage  h p-5 font-bold text-[#69AF00] text-center">Acc€$$ CrypTokens & Nfts</p>
       <div className="lg:max-w-[1200px] w-full">
         <Slider className="mx-auto" {...settings}>
           {sliderItems.map((item, index) => (
             <div key={index} className="h-[300px] gap-5 relative overflow-hidden custom-card mx-[30px] lg:mx-5 border bg-[#03C649] rounded-[40px]">
               <img src={item.imgSrc} alt="" className="w-[200px] h-[150px] mx-auto mt-10" />
-              <button className="">
+          <Link to="/mint">   <button className="">
               <div className="flex justify-center items-start w-[198px] py-2.5 rounded-[360px] bg-[#69af00]">
   <div className="flex justify-center items-start flex-grow-0 flex-shrink-0 w-[155px]">
     <div className="flex flex-col justify-center items-start self-stretch flex-grow-0 flex-shrink-0 pr-[5px]">
@@ -133,7 +125,7 @@ function Club2() {
   </div>
 </div>;
 
-              </button>
+              </button></Link> 
               <button className="absolute top-0 right-0 rounded-full py-1 tracking-[2px] w-[125px] bg-[#69AF00] text-white">{item.labelTopRight}</button>
               <button className="absolute top-0 left-0 rounded-full py-2 tracking-[2px] w-[125px] text-[10px] pl-5 bg-[#69AF00] text-[#ECDD91]">{item.labelTopLeft}</button>
             </div>

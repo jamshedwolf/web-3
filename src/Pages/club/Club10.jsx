@@ -20,7 +20,7 @@ function Club10() {
                             backgroundSize: 'cover',
                             backgroundPosition: 'center',
                         }}
-                        className='flex  m-2 items-center lg:w-[900px]transition-all ease-linear duration-200 hover:scale-105 w-auto  text-center border max-w-[900px] rounded-lg lg:rounded-full justify-center flex-col px-10 py-10 gap-5'
+                        className='flex  m-2 items-center  exo lg:w-[900px]transition-all ease-linear duration-200 hover:scale-105 w-auto  text-center border max-w-[900px] rounded-lg lg:rounded-full justify-center flex-col px-10 py-10 gap-5'
                     ><div className="text-center"> <img src={wead} alt="" className="" /></div>
                         <div className="flex gap-2 h mx-auto text-white text-center font-extrabold">  WeedFlow</div>
                         <p className="text-center exo text-white mx-auto">

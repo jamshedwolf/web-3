@@ -20,7 +20,7 @@ function Network7() {
 
 
 
-            <div className="flex p-10 text-center max-w-[1400px] mx-auto  gap-10 flex-col md:flex-row  ">
+            <div className="flex exo p-10 text-center max-w-[1400px] mx-auto  gap-10 flex-col md:flex-row  ">
                 <div className="flex justify-start  flex-col gap-3 flex-[.3] items-center">
                     <p className="h atomicage text-[#03C649]">Why love nature</p>
                     <p className="text-white">   Build the best experience to create Greater & Better Values ​​for our associations and clients, using markets and business lines to inspire and implement environmentally friendly solutions. We strive to go above and beyond for our associate clientele no matter the challenge. Our goal is to offer the best work every day through our spaces</p>
@@ -29,7 +29,7 @@ function Network7() {
 
                 </div>
 
-                <div className="grid   place-items-center justify-start flex-[.3] grid-cols-1 md:grid-cols-2 gap-3 items-center">
+                <div className="grid  exo  place-items-center justify-start flex-[.3] grid-cols-1 md:grid-cols-2 gap-3 items-center">
                     
                         <div className="flex flex-col w-[100px]">
                             <img src={bage} alt="" className="transition-all ease-linear duration-200 hover:scale-105" />

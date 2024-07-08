@@ -31,7 +31,7 @@ function Accordin() {
             //     backgroundSize: 'cover',
             //     backgroundPosition: 'center',
             // }}
-            className=" lg:h-screen h-[130vh] xl:h-auto lg:pt-10  flex-col gap-4 text-[white] flex items-center justify-center"
+            className=" lg:h-screen h-[130vh] exo xl:h-auto lg:pt-10  flex-col gap-4 text-[white] flex items-center justify-center"
         ><p className="h text-[#03C649] atomicage">faqs</p>
             <div className="flex flex-col gap-4 max-w-[1400px] mx-auto xl:h-auto xl:py-20">
                 {accordionData.map((item, index) => (

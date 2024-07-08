@@ -21,7 +21,7 @@ const data = [
 
 function Network5() {
   return (
-    <div className='max-w-[1400px] p-10 overflow-x-auto  mx-auto'>
+    <div className='max-w-[1400px] exo p-10 overflow-x-auto  mx-auto'>
       <table className="w-[1400px] mx-auto bg-white rounded-lg">
         <thead>
           <tr>

@@ -10,6 +10,7 @@ import academy from "../../assets/images/academy.svg";
 import crd2 from "../../assets/images/crd2.svg";
 import crd3 from "../../assets/images/crd3.svg";
 import crd4 from "../../assets/images/crd4.svg";
+import { Link } from 'react-router-dom';
 import "./card.css";
 
 const sliderItems = [
@@ -33,16 +34,7 @@ const sliderItems = [
     labelTopLeft: 'CoNetworking',
     labelTopRight: 'LIVE',
   },
-  {
-    imgSrc: copy,
-    labelTopLeft: 'A Crypto token',
-    labelTopRight: 'LIVE',
-  },
-  {
-    imgSrc: copy,
-    labelTopLeft: 'A Crypto token',
-    labelTopRight: 'LIVE',
-  },
+ 
 ];
 
 function CustomSlider() {
@@ -87,12 +79,14 @@ function CustomSlider() {
       <div className="lg:max-w-[1200px] w-full">
         <Slider className="mx-auto" {...settings}>
           {sliderItems.map((item, index) => (
-            <div key={index} className="h-[300px]    transition-all ease-linear duration-200 hover:scale-105 gap-5 relative overflow-hidden custom-card mx-7 lg:mx-5 border bg-[#03C649] rounded-[40px]">
+            <div key={index} className="h-[300px]     gap-5 relative overflow-hidden custom-card mx-7 lg:mx-5 border bg-[#03C649] rounded-[40px]">
               <img src={item.imgSrc} alt="" className="w-[200px] h-[150px] mx-auto mt-10" />
+              <Link to="/mint">
               <button className="">
               <div className="flex justify-center items-start w-[198px] py-2.5 rounded-[360px] bg-[#69af00]">
   <div className="flex justify-center items-start flex-grow-0 flex-shrink-0 w-[155px]">
     <div className="flex flex-col justify-center items-start self-stretch flex-grow-0 flex-shrink-0 pr-[5px]">
+
       <div className="flex flex-col justify-start items-center flex-grow-0 flex-shrink-0 h-[25px] relative">
         <svg
           width={23}
@@ -111,7 +105,7 @@ function CustomSlider() {
       </div>
     </div>
     <div className="flex flex-col justify-start items-center self-stretch flex-grow relative">
-      <p className="flex-grow-0 flex-shrink-0 text-[22px] font-bold text-center text-[#ecdd91]">
+      <p className="flex-grow-0 exo flex-shrink-0 text-[22px] font-bold text-center text-[#ecdd91]">
         MINT NOW
       </p>
     </div>
@@ -119,8 +113,9 @@ function CustomSlider() {
 </div>;
 
               </button>
-              <button className="absolute top-0 right-0 rounded-full py-1 tracking-[2px] w-[125px] bg-[#69AF00] text-white">{item.labelTopRight}</button>
-              <button className="absolute top-0 left-0 rounded-full py-2 tracking-[2px] w-[125px] text-[10px] pl-5 bg-[#69AF00] text-[#ECDD91]">{item.labelTopLeft}</button>
+              </Link>
+              <button className="absolute top-0 right-0 rounded-full py-1 tracking-[2px] w-[125px] bg-[#69AF00] text-white exo">{item.labelTopRight}</button>
+              <button className="absolute top-0 left-0 rounded-full py-2 tracking-[2px] w-[125px] text-[10px] pl-5 exo bg-[#69AF00] text-[#ECDD91]">{item.labelTopLeft}</button>
             </div>
           ))}
         </Slider>

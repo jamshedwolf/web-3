@@ -13,6 +13,7 @@ import crd2 from "../../assets/images/crd2.svg";
 import crd3 from "../../assets/images/crd3.svg";
 import crd4 from "../../assets/images/crd4.svg";
 import "../home/card.css"
+import { Link } from 'react-router-dom';
 function Network2() {
 
     const settings = {
@@ -70,14 +71,7 @@ function Network2() {
           imgSrc: crd4,
           buttonLabel: "CoNetworking"
         },
-        {
-          imgSrc: copy,
-          buttonLabel: "A Crypto token"
-        },
-        {
-          imgSrc: copy,
-          buttonLabel: "A Crypto token"
-        }
+       
       ];
   return (
     <div className='pt-20'>
@@ -92,9 +86,9 @@ function Network2() {
         
       <Slider className="mx-auto" {...settings}>
         {slides.map((slide, index) => (
-          <div key={index} className="relative mx-6 h-[300px] gap-5 overflow-hidden border custom-card  sm:mx-5 bg-[#03C649] rounded-[20px] sm:rounded-[40px]">
+          <div key={index} className="relative mx-6  exo h-[300px] gap-5 overflow-hidden border custom-card  sm:mx-5 bg-[#03C649] rounded-[20px] sm:rounded-[40px]">
             <img src={slide.imgSrc} alt="" className="w-[200px] h-[150px] mx-auto mt-10" />
-            <button className="">
+           <Link to="/mint"> <button className="">
             <div className="flex justify-center items-start w-[198px] py-2.5 rounded-[360px] bg-[#69af00]">
   <div className="flex justify-center items-start flex-grow-0 flex-shrink-0 w-[155px]">
     <div className="flex flex-col justify-center items-start self-stretch flex-grow-0 flex-shrink-0 pr-[5px]">
@@ -123,14 +117,14 @@ function Network2() {
   </div>
 </div>;
 
-            </button>
+            </button></Link>
             <button className='absolute top-0 right-0 py-1 tracking-[2px] w-[100px] sm:w-[125px] bg-[#69AF00] text-white rounded-full'>LIVE</button>
             <button className='absolute top-0 left-0 py-2 tracking-[2px] w-[100px] sm:w-[125px] text-[8px] sm:text-[10px] pl-3 sm:pl-5 bg-[#69AF00] text-[#ECDD91] rounded-full'>{slide.buttonLabel}</button>
           </div>
         ))}
       </Slider>
 <div className="text-center  mt-20">
-      <button className=" bg-green-500 mx-auto rounded-full px-3 py-1 font-bold text-white  ">Contact Now</button>
+      <button className=" bg-green-500 exo mx-auto rounded-full px-3 py-1 font-bold text-white  ">Contact Now</button>
       </div>
     </div>
 

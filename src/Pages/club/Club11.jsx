@@ -15,7 +15,7 @@ function Club11() {
                         backgroundSize: 'cover',
                         backgroundPosition: 'center',
                     }}
-                    className='flex  m-2 items-center transition-all ease-linear duration-200 hover:scale-105 lg:w-[900px]  w-auto  text-center border max-w-[900px] rounded-lg lg:rounded-full justify-center flex-col px-10 py-10 gap-5'
+                    className='flex  m-2 exo items-center transition-all ease-linear duration-200 hover:scale-105 lg:w-[900px]  w-auto  text-center border max-w-[900px] rounded-lg lg:rounded-full justify-center flex-col px-10 py-10 gap-5'
                 >
                     <div className="text-center"> </div>
                     <div className="flex gap-2 h mx-auto  text-white text-center font-extrabold">  XFlow 🔞</div>

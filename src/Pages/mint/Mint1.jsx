@@ -38,16 +38,7 @@ function Mint1() {
           labelTopLeft: 'CoNetworking',
           labelTopRight: 'LIVE',
         },
-        {
-          imgSrc: copy,
-          labelTopLeft: 'A Crypto token',
-          labelTopRight: 'LIVE',
-        },
-        {
-          imgSrc: copy,
-          labelTopLeft: 'A Crypto token',
-          labelTopRight: 'LIVE',
-        },
+        
       ];
       
       
@@ -91,7 +82,7 @@ function Mint1() {
 
 
 
-    <div className="max-w-[1400px] mx-auto py-20 flex flex-col gap-5 items-center justify-center  ">
+    <div className="max-w-[1400px] exo mx-auto py-20 flex flex-col gap-5 items-center justify-center  ">
 
 
 

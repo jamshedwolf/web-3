@@ -11,7 +11,7 @@ function Club1() {
 Enjoy the Advantages: Benefit from exclusive, fully<br/> customizable and sustainable orders <br/>
 Airdrops, Events, Jewelry, Textiles, <br/>
 Tournaments, trips</div>
-<button className=" bg-green-500 mx-auto rounded-full px-3 py-1 font-bold text-white transition-all ease-linear duration-200 hover:scale-105 ">Contact Now</button>
+<button className=" bg-green-500 mx-auto exo rounded-full px-3 py-1 font-bold text-white transition-all ease-linear duration-200 hover:scale-105 ">Contact Now</button>
     </div>
     
     </div>

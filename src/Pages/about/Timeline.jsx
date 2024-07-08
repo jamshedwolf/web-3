@@ -6,7 +6,7 @@ function Timeline() {
 
 
 <div
-  className="flex flex-col mx-auto overflow-hidden justify-start  mt-10 items-center w-[1476px] relative gap-[43px] px-10 py-[42px] rounded-[369px] bg-[#03c649]"
+  className="flex flex-col exo mx-auto overflow-hidden justify-start  mt-10 items-center w-[1476px] relative gap-[43px] px-10 py-[42px] rounded-[369px] bg-[#03c649]"
   style={{ boxShadow: "0px 4px 10px 0 rgba(0,0,0,0.12)" }}
 >
   <svg

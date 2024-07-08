@@ -11,7 +11,7 @@ function Second() {
         <div className='  flex items-center justify-center'>
             <div className="flex gap-5 flex-col py-20 max-w-[1400px]  items-center justify-center mx-auto">
 
-                <div className='bg-[#03C649]   text-[#ECDD91] transition-all ease-linear duration-200 hover:scale-105 lg:text-2xl rounded-full px-14 py-3 exo'>Boost your BENEFITS, raise YOUR QUALITY of LIFE ,<br /> connecting with mutual PROFITS, thought our EXCLUSIVE <br /> ADVANTAGES...</div>
+                <div className='bg-[#03C649]   text-[#ECDD91] transition-all ease-linear duration-200 text-center hover:scale-105 lg:text-2xl rounded-full px-14 py-3 exo'>Boost your BENEFITS, raise YOUR QUALITY of LIFE ,<br /> connecting with mutual PROFITS, thought our EXCLUSIVE <br /> ADVANTAGES...</div>
 
                 <div className=" flex flex-col lg:flex-row gap-5">
                     <img src={leftven} alt="" className="transition-all ease-linear duration-200 hover:scale-105" />

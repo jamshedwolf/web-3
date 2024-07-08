@@ -42,7 +42,7 @@ function Second() {
     ];
 
     return (
-        <div className='py-10 flex-col gap-5 px-2 flex justify-center xl:h-auto xl:py-20 items-center'>
+        <div className='py-10 exo flex-col gap-5 px-2 flex justify-center xl:h-auto xl:py-20 items-center'>
             <div className="max-w-[1400px] flex flex-col gap-10 items-center justify-center">
                 <div className="flex-col gap-5 flex-[0.9] flex justify-center items-center">
                     {points.map((point, index) => (
@@ -62,7 +62,7 @@ function Second() {
                         </div>
                     ))}
                 </div>
-                <div className="bg-[#03C649] flex transition-all ease-linear duration-200 hover:scale-105 flex-col gap-5 rounded-lg text-white max-w-[900px] md:w-[600px] lg:ml-[50px] exo lg:w-[900px] p-5">
+                <div className="bg-[#03C649] text-center flex transition-all ease-linear duration-200 hover:scale-105 flex-col gap-5 rounded-lg text-white max-w-[900px] md:w-[600px] lg:ml-[50px] exo lg:w-[900px] p-5">
                     <div>
                         Our main objective is to disseminate knowledge to provide a greater understanding of wisdom in different fields and concepts, such as digitalization, efficiency, sustainability and of course, transcendent topics. We promote the sustainable growth and development of the environment and its beings, so that they can achieve a lifestyle in harmony with the cosmos and its nature. Here you will learn to interpret and improve your quality of life, as well as generate greater profits with your finances. We offer you an academy to learn and delve into the most relevant topics, clubs to meet and connect with other beings related to your interests and exchange experiences, fully customizable products and services, as well as CoNetWorKing spaces and tools establishing lasting collaborations to make the best business…
                     </div>

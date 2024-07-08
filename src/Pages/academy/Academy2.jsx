@@ -2,7 +2,7 @@ import React from 'react'
 
 function Academy2() {
   return (
-    <div  className='lg:h-auto p-2 xl:h-auto xl:p-20 pt-30  gap-  5 flex flex-col items-center justify-center' > 
+    <div  className='lg:h-autob exo p-2 xl:h-auto xl:p-20 pt-30  gap-  5 flex flex-col items-center justify-center' > 
     
     <div className=" flex flex-col gap-3 lg:mt-80 xl:mt-0                                                                        ">
         <p className="h text-[#69AF00] text-center  exo md:mt-10 font-semibold lg:mt-0"> Training Modules:</p>

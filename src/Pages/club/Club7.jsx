@@ -17,7 +17,7 @@ function Club7() {
                             backgroundSize: 'cover',
                             backgroundPosition: 'center',
                         }}
-                        className='flex items-center lg:w-[900px] w-auto lg:py-20 text-center border transition-all ease-linear duration-200 hover:scale-105 max-w-[900px] rounded-lg lg:rounded-full justify-center flex-col px-10 py-10 gap-5'
+                        className='flex items-center exo lg:w-[900px] w-auto lg:py-20 text-center border transition-all ease-linear duration-200 hover:scale-105 max-w-[900px] rounded-lg lg:rounded-full justify-center flex-col px-10 py-10 gap-5'
                     >
                         <div className="flex gap-2 h mx-auto text-white text-center font-extrabold">FlowMusic</div>
                         <p className="text-center  text-white mx-auto">

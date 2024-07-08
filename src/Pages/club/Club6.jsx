@@ -65,7 +65,7 @@ function Club6() {
     };
   return (
     <div className=''>
-<div className="flex flex-col py-5 w-full xl:h-auto xl:py-40 overflow-x-hidden justify-center items-center gap-5 mx-auto lg:h-[80vh]">
+<div className="flex flex-col exo py-5 w-full xl:h-auto xl:py-40 overflow-x-hidden justify-center items-center gap-5 mx-auto lg:h-[80vh]">
 
 <div className="lg:max-w-[1200px] w-full">
     <Slider className="mx-auto" {...settings}>

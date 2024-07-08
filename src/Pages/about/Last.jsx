@@ -11,6 +11,7 @@ import crd2 from "../../assets/images/crd2.svg";
 import crd3 from "../../assets/images/crd3.svg";
 import crd4 from "../../assets/images/crd4.svg";
 import "../home/card.css"
+import { Link } from 'react-router-dom';
 
 const settings = {
   dots: true,
@@ -67,23 +68,17 @@ const slides = [
     imgSrc: crd4,
     buttonLabel: "CoNetworking"
   },
-  {
-    imgSrc: copy,
-    buttonLabel: "A Crypto token"
-  },
-  {
-    imgSrc: copy,
-    buttonLabel: "A Crypto token"
-  }
+  
 ];
 
 function Last() {
   return (
-    <div className="w-full py-10 lg:max-w-[1200px] mx-auto ">
+    <div className="w-full py-10 exo lg:max-w-[1200px] mx-auto ">
       <Slider className="mx-auto" {...settings}>
         {slides.map((slide, index) => (
           <div key={index} className="relative mx-6 h-[300px] gap-5 overflow-hidden border custom-card  sm:mx-5 bg-[#03C649] rounded-[20px] sm:rounded-[40px]">
             <img src={slide.imgSrc} alt="" className="w-[200px] h-[150px] mx-auto mt-10" />
+            <Link to="/mint">
             <button className="">
             <div className="flex justify-center items-start w-[198px] py-2.5 rounded-[360px] bg-[#69af00]">
   <div className="flex justify-center items-start flex-grow-0 flex-shrink-0 w-[155px]">
@@ -113,7 +108,7 @@ function Last() {
   </div>
 </div>;
 
-            </button>
+            </button></Link>
             <button className='absolute top-0 right-0 py-1 tracking-[2px] w-[100px] sm:w-[125px] bg-[#69AF00] text-white rounded-full'>LIVE</button>
             <button className='absolute top-0 left-0 py-2 tracking-[2px] w-[100px] sm:w-[125px] text-[8px] sm:text-[10px] pl-3 sm:pl-5 bg-[#69AF00] text-[#ECDD91] rounded-full'>{slide.buttonLabel}</button>
           </div>

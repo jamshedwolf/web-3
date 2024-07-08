@@ -16,7 +16,7 @@ function Contact2() {
 
 <div className='flex  text-center p-2 text-2xl lg:text-4xl  atomicage text-[#19AF00] items-center justify-center '> Let's stay connected, you can find us here
 </div>
-  <p className="text-center p-2  lg:text-[25px] text-[#ECDD91] p max-w-[700px] mx-auto">Contact now to explore and learn more about how we can help your quality of life improve and your professional successes flourish; so that they provide you with greater and better profits.</p>
+  <p className="text-center p-2  lg:text-[25px] exo text-[#ECDD91] p max-w-[700px] mx-auto">Contact now to explore and learn more about how we can help your quality of life improve and your professional successes flourish; so that they provide you with greater and better profits.</p>
   
 <div className=" exo   mt-10">
     <img src={topmessages} alt="" className="mx-auto w-20" />
